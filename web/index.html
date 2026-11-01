@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CampusTransit - Transport Dashboard</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <div class="brand-icon"><svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="15" rx="3"/><path d="M4 11h16M8 21v-3M16 21v-3"/><circle cx="8" cy="14.5" r=".8" fill="#fff"/><circle cx="16" cy="14.5" r=".8" fill="#fff"/></svg></div>
+      <span>CampusTransit</span>
+    </div>
+    <nav id="nav"></nav>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <button class="burger" id="burger" aria-label="Menu">&#9776;</button>
+      <h1 id="title">Transport Dashboard</h1>
+      <div class="spacer"></div>
+      <select class="year" aria-label="Academic year"><option>Academic Year 2026-27</option><option>Academic Year 2025-26</option></select>
+      <a class="bell" href="#alerts" title="Alerts" id="bell"><svg viewBox="0 0 24 24"><path d="M6 9a6 6 0 1 1 12 0c0 6 2 7.5 2 7.5H4S6 15 6 9z" fill="#f0a30a" stroke="#d98e00"/><path d="M10 20a2 2 0 0 0 4 0" stroke="#d98e00"/></svg><i id="belldot" hidden></i></a>
+      <div class="usermenu" id="usermenu" hidden>
+        <button id="userBtn" aria-label="Account"><div class="avatar" id="avatar">CT</div><span class="who"><b id="uName"></b><small id="uRole"></small></span></button>
+        <div class="drop" id="userDrop" hidden><button id="uPw">Change password</button><button id="uOut">Sign out</button></div>
+      </div>
+    </header>
+    <div id="banner" class="banner" hidden></div>
+    <main id="view" class="view"></main>
+  </div>
+</div>
+<div id="splash" class="splash" role="status" aria-live="polite">
+  <div class="splash-box">
+    <div class="splash-bus"><svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="15" rx="3"/><path d="M4 11h16M8 21v-3M16 21v-3"/><circle cx="8.5" cy="14.5" r=".6"/><circle cx="15.5" cy="14.5" r=".6"/></svg></div>
+    <h1>CampusTransit</h1>
+    <p class="tag">Smart College Transport Management</p>
+    <div class="bar"><i id="splashBar"></i></div>
+    <div class="step" id="splashStep">Starting...</div>
+  </div>
+</div>
+<div id="auth" class="auth" hidden></div>
+<div id="modal" class="modal-backdrop" hidden><div class="modal" id="modalBody"></div></div>
+<div id="toast" class="toast" hidden></div>
+<script src="streetmap.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

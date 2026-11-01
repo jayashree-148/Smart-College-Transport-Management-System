@@ -1,0 +1,15 @@
+route_id	route_name	zone	distance_km	est_minutes
+R01	Red Hills Bus Terminal - Campus	North	28.5	81
+R02	Moolakadai Junction - Campus	North-East	16.5	51
+R03	Vyasarpadi Jeeva Station - Campus	North-East	23.2	68
+R04	Nungambakkam High Road - Campus	East	12.3	41
+R05	Taramani IT Park - Campus	East	16.9	52
+R06	Thoraipakkam Junction - Campus	South-East	18.9	57
+R07	Sholinganallur Signal - Campus	South	22.3	66
+R08	Gowrivakkam Temple - Campus	South	25.4	74
+R09	Sembakkam Lake View - Campus	South	22.9	67
+R10	West Tambaram Arch - Campus	South-West	22.1	65
+R11	Tambaram Sanatorium - Campus	West	24.0	70
+R12	Nazarathpettai Police Checkpost - Campus	West	14.9	47
+R13	Avadi Bus Depot - Campus	North-West	23.3	68
+R14	Ambattur OT Bus Stand - Campus	North	15.5	49

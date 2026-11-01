@@ -1,0 +1,15 @@
+event_time	event_type	details
+2026-10-09 07:10:00	PICKUP	BUS-01 started trip: STOP-05, STOP-06, STOP-07 (12/12 seats)
+2026-10-09 07:25:00	PICKUP	BUS-02 started trip: STOP-04, STOP-03, STOP-02 (11/12 seats)
+2026-10-09 07:40:00	BREAKDOWN	BUS-03 broke down after STOP-04; boarded students kept, waiting students reassigned
+2026-10-09 07:55:00	PICKUP	BUS-02 extended trip to STOP-01 after BUS-03 breakdown
+2026-10-09 08:30:00	PICKUP	All trips completed at campus
+2026-10-12 06:50:00	ATTENDANCE	S003 marked ABSENT
+2026-10-12 06:50:00	ATTENDANCE	S011 marked ABSENT
+2026-10-12 06:50:00	ATTENDANCE	S024 marked ABSENT
+2026-10-12 06:50:00	ATTENDANCE	S038 marked ABSENT
+2026-10-12 06:50:00	ATTENDANCE	S043 marked ABSENT
+2026-10-12 06:50:00	ATTENDANCE	S044 marked ABSENT
+2026-10-12 06:50:00	ATTENDANCE	S045 marked ABSENT
+2026-10-12 06:55:00	AUTHORIZATION	S007 not authorized for transport service
+2026-10-12 06:55:00	AUTHORIZATION	S019 not authorized for transport service
